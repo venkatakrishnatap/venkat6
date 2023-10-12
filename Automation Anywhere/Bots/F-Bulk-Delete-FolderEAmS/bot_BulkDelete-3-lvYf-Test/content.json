@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "uid": "ed3ed5ab-f20f-4077-83a4-9b26d65a7abc",
+      "commandName": "messageBox",
+      "packageName": "MessageBox",
+      "attributes": [
+        {
+          "name": "closeMsgBox",
+          "value": {
+            "type": "BOOLEAN",
+            "boolean": true
+          }
+        },
+        {
+          "name": "timeOut",
+          "value": {
+            "type": "NUMBER",
+            "number": "5"
+          }
+        },
+        {
+          "name": "content",
+          "value": {
+            "type": "STRING",
+            "string": "This message comes from Bot + 3"
+          }
+        },
+        {
+          "name": "scrollLines",
+          "value": {
+            "type": "NUMBER",
+            "number": "30"
+          }
+        },
+        {
+          "name": "title",
+          "value": {
+            "type": "STRING",
+            "string": "API Automation"
+          }
+        }
+      ],
+      "commandId": "75",
+      "packageId": "75"
+    }
+  ],
+  "variables": [
+    {
+      "name": "prompt-assignment",
+      "description": "A variable you can use for assignments",
+      "type": "STRING",
+      "subtype": "UNDEFINED",
+      "input": false,
+      "output": false
+    }
+  ],
+  "dependencies": [],
+  "packages": [
+    {
+		"name":"MessageBox",
+      	"version": "3.6.0"
+    }
+  ]
+}
